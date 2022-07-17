@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  font-family: "Mukta", sans-serif;
+}
+.card {
+  background-color: #11141d;
+  padding: 1.5rem;
+  height: 100vh;
+
+  color: #efeff4;
+  font-size: 0.8rem;
+}
+.card li {
+  font-weight: 300;
+  list-style: none;
+}
+.main {
+  background-color: #efeff4;
+  width: 100vw;
+
+  padding: 1.5rem;
+}
+#nota1,
+#nota2,
+#nota3,
+#nota4 {
+  width: 3rem;
+  height: 3rem;
+  
+}
