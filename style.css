@@ -11,17 +11,38 @@ body {
   flex-direction: row;
   font-family: "Mukta", sans-serif;
 }
+h1 {
+  font-size: 2rem;
+}
+
+/* CARD DE PERFIL ----------------------------------*/
+
 .card {
   background-color: #11141d;
-  padding: 1.5rem;
+  padding: 2rem;
   height: 100vh;
 
+  width: 40%;
   color: #efeff4;
   font-size: 0.8rem;
+
+  display: flex;
+  align-items: center;
 }
 .card li {
   font-weight: 300;
   list-style: none;
+}
+#perfil-nome {
+  font-size: 1.8rem;
+}
+#perfil-foto {
+  width: 8rem;
+  height: 8rem;
+
+  border-radius: 100%;
+  border: 1px solid #ffffff;
+  padding: 0.3rem;
 }
 .main {
   background-color: #efeff4;
@@ -29,11 +50,68 @@ body {
 
   padding: 1.5rem;
 }
+
+/* INPUTS ---------------------------------------*/
+
+select {
+  background-color: transparent;
+  padding: 0.2rem;
+}
+
 #nota1,
 #nota2,
 #nota3,
 #nota4 {
   width: 3rem;
   height: 3rem;
-  
+
+  margin: 0.25rem;
+  background-color: transparent;
+
+  text-align: center;
+}
+#calcular {
+  margin: 0.5rem;
+  padding: 0.3rem;
+}
+#media {
+  width: 36rem;
+  height: 3rem;
+
+  border: 2px solid #11141d;
+  background-color: transparent;
+}
+.main-geral {
+  display: flex;
+  gap: 1rem;
+}
+#media-geral,
+#abaixo,
+#acima {
+  border: 1px solid red;
+  width: 5rem;
+  height: 5rem;
+}
+
+/* TABELA DE NOTAS ---------------------------------*/
+
+.main-tabela {
+  margin-top: 1rem;
+}
+tr,
+td {
+  width: 6rem;
+  height: 2rem;
+  padding: 0.3rem;
+
+  text-align: center;
+  border: 2px solid #3a3a3a;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid #3a3a3a;
+
+  font-family: "Mukta", sans-serif;
+  font-weight: 500;
+  color: #3a3a3a;
 }
